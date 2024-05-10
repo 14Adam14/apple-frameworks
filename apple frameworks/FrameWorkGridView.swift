@@ -1,15 +1,22 @@
-//
-//  FrameWorkGridView.swift
-//  apple frameworks
-//
-//  Created by Adam Kaum on 11.05.2024.
-//
+// Adam Kaum on 11.05.2024
+
 
 import SwiftUI
 
 struct FrameWorkGridView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image("app-clip")
+                .resizable()
+                .frame(width: 90, height: 90)
+            
+            Text("App Clips")
+                .font(.title2)
+                .fontWeight(.semibold)
+                .scaledToFit()
+                .minimumScaleFactor(0.6)
+        }
+        
     }
 }
 
