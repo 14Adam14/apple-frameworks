@@ -12,6 +12,7 @@
 		A3169B842BEE8F76001A783F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3169B832BEE8F76001A783F /* Preview Assets.xcassets */; };
 		A337FE6A2BEEC428002D03BD /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337FE692BEEC428002D03BD /* Framework.swift */; };
 		A345DAEE2BEEC90800179767 /* FrameWorkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345DAED2BEEC90800179767 /* FrameWorkGridView.swift */; };
+		A345DAF02BEEF02800179767 /* FrameworkDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345DAEF2BEEF02800179767 /* FrameworkDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A3169B832BEE8F76001A783F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A337FE692BEEC428002D03BD /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		A345DAED2BEEC90800179767 /* FrameWorkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkGridView.swift; sourceTree = "<group>"; };
+		A345DAEF2BEEF02800179767 /* FrameworkDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A3169B7B2BEE8F73001A783F /* apple_frameworksApp.swift */,
 				A345DAED2BEEC90800179767 /* FrameWorkGridView.swift */,
+				A345DAEF2BEEF02800179767 /* FrameworkDataView.swift */,
 				A337FE692BEEC428002D03BD /* Framework.swift */,
 				A3169B7F2BEE8F76001A783F /* Assets.xcassets */,
 				A3169B812BEE8F76001A783F /* apple_frameworks.entitlements */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A345DAEE2BEEC90800179767 /* FrameWorkGridView.swift in Sources */,
+				A345DAF02BEEF02800179767 /* FrameworkDataView.swift in Sources */,
 				A337FE6A2BEEC428002D03BD /* Framework.swift in Sources */,
 				A3169B7C2BEE8F73001A783F /* apple_frameworksApp.swift in Sources */,
 			);
