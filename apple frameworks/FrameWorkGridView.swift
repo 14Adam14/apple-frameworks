@@ -24,12 +24,7 @@ struct FrameWorkGridView: View {
             }
             
         }
-        
-        
-
-        
-        
-        
+    
     }
 }
 
@@ -38,9 +33,6 @@ struct FrameWorkGridView: View {
     FrameWorkGridView()
         .preferredColorScheme(.dark)
 }
-
-
-
 
 
 
